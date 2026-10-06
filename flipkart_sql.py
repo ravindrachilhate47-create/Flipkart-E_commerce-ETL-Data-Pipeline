@@ -5,7 +5,7 @@ from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
 
-input_files= Path(r"C:\Users\Ravindra Chilhate\OneDrive\Desktop\Book1.csv")
+input_files= Path("not files")
 output_files= Path("flipkart_pipeline_clean.CSV")
 
 
