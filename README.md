@@ -33,10 +33,16 @@ If successful, you'll see logs like:
 
 
 INFO:root:Reading CSV files
+
 INFO:root:Basic info in Files
+
 INFO:root:Transforming data
+
 INFO:root:Loading a files on PC
+
 INFO:root:pipeline completed successfully
+
+
 What I Learned Building This
 Structuring code using OOP — a class with extract, file_info, transform, load, and run methods
 Using Pandas to inspect real-world data before deciding how to clean it
