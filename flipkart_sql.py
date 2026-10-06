@@ -24,10 +24,9 @@ class flipkart_jone:
         print("TOP 5 rows \n",df.head(5))
         print("data shape \n",df.shape)
         print("basic info \n",df.info())
-        # print("data info \n",df.descride())
-        print("check value \n",df.isna())
-        print("check duplicateds \n",df.duplicated())
-        print("Drop duplicates \n",df.drop_duplicates())
+        print("check value \n",df.isna().sum())
+        print("check duplicateds \n",df.duplicated().sum())
+        print("Drop duplicates \n",df.drop_duplicates().sum())
 
         return df 
 
